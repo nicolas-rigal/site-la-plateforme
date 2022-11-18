@@ -1,0 +1,86 @@
+/*preference de base */
+body{
+    height: auto;
+    background-color: white;
+}
+
+nav{
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 2em;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(83, 83, 168);
+
+}
+.logoLaPlateforme{
+    width: 20em;  
+}
+/*header---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+nav ul li:last-child{
+    padding-right: 5em;
+}
+button{
+    width: 10em;
+    color: darkorange;
+}
+/* footer--------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+footer{
+    display: flex;
+    background-color: darkslategray;
+    border-top: 0.15em solid white;
+}
+footer section{
+    display: inline-block;
+    justify-content: space-around;
+    width: 25%;
+    color: black;
+    margin: 0.5em;
+}
+
+footer a{
+    color: white;
+}
+
+footer ul{
+    padding:0;
+}
+
+.logoApril{
+    width: 15em;
+}
+
+/*class----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.logoLaPlateforme{
+      width: 20em;  
+}
+
+.premierVue{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(144, 144, 213);
+    color: white;
+}
+
+.premierVue div{
+    display: flex;
+    flex-direction: column;
+}
+.texteAuMillieu{
+    text-align: center;
+}
